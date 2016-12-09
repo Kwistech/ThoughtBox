@@ -1,4 +1,4 @@
-# KwisBot
+# ThoughtBox
 
 ThoughtBox v.1.0.0 (Python 2.7)
 
