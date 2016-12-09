@@ -1,0 +1,23 @@
+#:kivy 1.9.1
+
+<MyFloatLayout>:
+    Button:
+        text: ""
+        size_hint: None, None
+        height: root.height
+        width: root.width
+        background_color: root.main_color
+        on_release: root.change_text()
+
+    Button:
+        text: "Add Thought"
+        font_size: root.width / 50
+        size_hint: None, None
+        height: root.height / 5
+        width: root.width / 5
+        background_color: root.sub_color
+        on_release: root.add_thought()
+
+    Label:
+        text: root.text
+        font_size: 50
