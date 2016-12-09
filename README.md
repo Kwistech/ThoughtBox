@@ -12,13 +12,11 @@ Check the project's [Wiki](https://github.com/Kwistech/ThoughtBox/wiki) for more
 
 + From the program's root directory, double-click `main.py`
 
-# Use for Mobile Device
+### Use for Mobile Device
 
 + Package the app using an Android or iOS packager
 
-+ Push the package to your device 
-
-(More info coming soon)
++ Push the package to your device (More info coming soon)
 
 ## How to Use
 
