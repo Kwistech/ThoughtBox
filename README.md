@@ -22,12 +22,12 @@ Check the project's [Wiki](https://github.com/Kwistech/ThoughtBox/wiki) for more
 
 Once the app is running you will see the following:
 
-<img src="https://s15.postimg.org/5qs27ugor/Thought_Box_app_1.png" hspace="10">
+<img src="https://s29.postimg.org/od2e57wmv/Thought_Box_app_1.png" hspace="10">
 
 To add a thought, click/touch the bottom left button labeled "Add Thought" (a popup box will appear):
 
-<img src="https://s30.postimg.org/hhua7mtkx/Thought_Box_app_2.png" hspace="10">
+<img src="https://s23.postimg.org/v3t7ibmsb/Thought_Box_app_2.png" hspace="10">
 
 To see the new thought, click/touch the middle of the screen and the app will randomly select a thought stored in its memory:
 
-<img src="https://s24.postimg.org/jfoq8xaqt/Thought_Box_app_3.png" hspace="10">
+<img src="https://s30.postimg.org/lzap4ub5t/Thought_Box_app_3.png" hspace="10">
