@@ -3,7 +3,6 @@
 <MyFloatLayout>:
     # Button for changing the text on the screen
     Button:
-        text: ""
         size_hint: None, None
         height: root.height
         width: root.width
@@ -18,7 +17,7 @@
         height: root.height / 5
         width: root.width / 5
         background_color: root.sub_color
-        on_release: root.add_thought()
+        on_release: root.open_popup()
 
     # Label to display the text on the screen
     Label:
