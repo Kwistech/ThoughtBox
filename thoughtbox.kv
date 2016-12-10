@@ -1,6 +1,7 @@
 #:kivy 1.9.1
 
 <MyFloatLayout>:
+    # Button for changing the text on the screen
     Button:
         text: ""
         size_hint: None, None
@@ -9,6 +10,7 @@
         background_color: root.main_color
         on_release: root.change_text()
 
+    # Button for adding a thought to the app
     Button:
         text: "Add Thought"
         font_size: root.width / 50
@@ -18,6 +20,7 @@
         background_color: root.sub_color
         on_release: root.add_thought()
 
+    # Label to display the text on the screen
     Label:
         text: root.text
         font_size: 50
