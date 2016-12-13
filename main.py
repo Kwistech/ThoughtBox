@@ -23,6 +23,9 @@ class MyFloatLayout(FloatLayout):
         super(FloatLayout, self).__init__()
         self.filename = "box.json"
         self.text = "ThoughtBox"
+        self.key = "Thoughts"
+
+        self.add_popup = self.create_add_popup()
 
     def get_json(self):
         """Get data from JSON file (self.filename).
@@ -43,7 +46,7 @@ class MyFloatLayout(FloatLayout):
         with open(self.filename, "r+") as f:
             json_data = self.get_json()
             if text_input.text:
-                json_data["Thoughts"].append(text_input.text)
+                json_data[self.key].append(text_input.text)
             dump(json_data, f, indent=4)
 
     def change_text(self):
@@ -51,8 +54,8 @@ class MyFloatLayout(FloatLayout):
         json_data = self.get_json().values()
         self.text = choice(json_data[0])
 
-    def open_popup(self):
-        """Open Popup for a user to enter a thought."""
+    def create_add_popup(self):
+        """Create popup widget used for adding thoughts."""
         box_layout = BoxLayout(orientation='vertical')
         text_input = TextInput(font_size=25, multiline=False, padding_y=25)
         button = Button(text="Add", background_color=self.sub_color)
@@ -65,7 +68,11 @@ class MyFloatLayout(FloatLayout):
         popup = Popup(title="Enter Thought Below:",
                       content=box_layout,
                       size_hint=(.4, .4))
-        popup.open()
+        return popup
+
+    def open_add_popup(self):
+        """Open Popup for a user to enter a thought."""
+        self.add_popup.open()
 
 
 class ThoughtBoxApp(App):
