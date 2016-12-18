@@ -14,8 +14,8 @@ Check the project's [Wiki](https://github.com/Kwistech/ThoughtBox/wiki) for more
 
 ### Dependancies
 
-Import from the Collections module (namedtuple), the JSON module (dump, load), the random module (choice),
-and the Kivy 1.9.1 library.
+Import from the __Collections__ module (namedtuple), the __JSON__ module (dump, load), the __random__ module (choice),
+and the __Kivy 1.9.1__ library.
 
 ### Use for Mobile Device
 
