@@ -12,6 +12,11 @@ Check the project's [Wiki](https://github.com/Kwistech/ThoughtBox/wiki) for more
 
 + From the program's root directory, double-click `main.py`
 
+### Dependancies
+
+Import from the Collections module (namedtuple), the JSON module (dump, load), the random module (choice),
+and the Kivy 1.9.1 library.
+
 ### Use for Mobile Device
 
 + Package the app using an Android or iOS packager
