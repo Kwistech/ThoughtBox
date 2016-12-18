@@ -12,7 +12,7 @@ Check the project's [Wiki](https://github.com/Kwistech/ThoughtBox/wiki) for more
 
 + From the program's root directory, double-click `main.py`
 
-### dependencies
+### Dependencies
 
 Import from the __Collections__ module (namedtuple), the __JSON__ module (dump, load), the __random__ module (choice),
 and the __Kivy 1.9.1__ library.
