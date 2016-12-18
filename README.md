@@ -16,7 +16,7 @@ Check the project's [Wiki](https://github.com/Kwistech/ThoughtBox/wiki) for more
 
 + Package the app using an Android or iOS packager
 
-+ Push the package to your device (More info coming soon)
++ Push the package to your device (More info available [here](https://kivy.org/docs/gettingstarted/packaging.html))
 
 ## How to Use
 
